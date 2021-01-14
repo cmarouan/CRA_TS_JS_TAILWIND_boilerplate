@@ -1,5 +1,5 @@
 {
-    "extends": ["eslint:recommended", "prettier", "prettier/react"],
+    "extends": ["plugin:react/recommended","eslint:recommended", "prettier", "prettier/react"],
     "plugins": [],
     "parserOptions": {
         "ecmaVersion": 2021,
@@ -9,5 +9,11 @@
         "es6": true,
         "browser": true,
         "node": true
+    },
+    "parser": "babel-eslint",
+    "settings": {
+        "react": {
+            "version": "latest"
+        }
     }
 }
