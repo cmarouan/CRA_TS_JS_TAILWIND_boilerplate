@@ -1,0 +1,1 @@
+# CRA_TS_PRETTIER_LINT_TAILWIND_boilerplate
